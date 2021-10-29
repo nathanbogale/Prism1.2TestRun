@@ -1,0 +1,22 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.3.61'
+}
+
+group 'GID1'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+
+    implementation("io.iohk.atala.prism:protos:1.2.0")
+    implementation("io.iohk.atala.prism:crypto:1.2.0")
+    implementation("io.iohk.atala.prism:identities:1.2.0")
+    implementation("io.iohk.atala.prism:credentials:1.2.0")
+    implementation("io.iohk.atala.prism:extras:1.2.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.2")
+    implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.2.1")
+}
