@@ -1,2 +1,2 @@
 # Prism1.2TestRun
-Taking the prism 1.2 version SDk for a run
+Taking the prism SDK v1.2 for a run
