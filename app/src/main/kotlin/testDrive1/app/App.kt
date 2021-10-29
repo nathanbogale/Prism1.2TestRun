@@ -3,9 +3,33 @@
  */
 package testDrive1.app
 
-import testDrive1.utilities.StringUtils
+//prism relaed dependencies
+import io.iohk.atala.prism.api.*
+import io.iohk.atala.prism.credentials.*
+import io.iohk.atala.prism.credentials.content.*
+import io.iohk.atala.prism.credentials.json.*
+import io.iohk.atala.prism.crypto.*
+import io.iohk.atala.prism.identity.*
+
+import javax.crypto.KeyGenerator
 
 fun main() {
+    /*
     val tokens = StringUtils.split(MessageUtils.getMessage())
     println(StringUtils.join(tokens))
+     */
+
+    println("""Little Prism""")
+    // Issuer's DID Generation
+    //https://learnmeabitcoin.com/technical/mnemonic
+    val issuerMnemonic = KeyDerivation.randomMnemonicCode()//randomly using entropy and checksum
+    val issuerSeed = KeyDerivation.binarySeed(issuerMnemonic, "secret") // 64bit seed, passphrase salt is optional
+    val issuerMasterKeyPair = KeyGenerator.deriveKeyFromFullPath(issuerSeed, 0, PrismKeyType.MASTER_KEY, 0)
+    val issuerDid = PrismDid.buildLongFormFromMasterPublicKey(issuerMasterKeyPair.publicKey)
+    val nodePayloadGenerator = NodePayloadGenerator(issuerDid, mapOf(Pair(PrismDid.DEFAULT_MASTER_KEY_ID, issuerMasterKeyPair.privateKey)))
+    val issuerCreateDidPayload = nodePayloadGenerator.createDid().payload
+    val issuerCreateDidOperationId = nodeApi.createDid(issuerCreateDidPayload, issuerDid, PrismDid.DEFAULT_MASTER_KEY_ID)
+    println("Issuer DID: $issuerDid")
+
+
 }

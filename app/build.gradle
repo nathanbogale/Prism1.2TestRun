@@ -8,6 +8,8 @@ plugins {
 
 dependencies {
     implementation project(':utilities')
+    compile fileTree(dir: 'lib', include: '*.jar')
+
 }
 
 application {
