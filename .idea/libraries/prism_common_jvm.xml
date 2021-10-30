@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="prism-common-jvm">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/prism-common-jvm-1.2.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

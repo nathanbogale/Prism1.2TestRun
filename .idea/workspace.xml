@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="104d4fc0-92a9-4659-ba7d-513abdd129a0" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="53359dee-9d32-43c2-86ad-9d46e6de3ae8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,18 +21,35 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <task path="$PROJECT_DIR$/app">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/utilities">
-          <activation />
-        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="testDrive1.2" type="f1a62948:ProjectNode" />
+                <item name="prism-sdk-kotlin-example" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="prism-sdk-kotlin-example" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="prism-sdk-kotlin-example" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="prism-sdk-kotlin-example" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="prism-sdk-kotlin-example" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -42,65 +58,44 @@
       </state>
     </system>
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
-  </component>
-  <component name="ProjectId" id="20Bbzze3z9Q6VmuddVgKozceXIN" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/prism-api-jvm-1.2.0.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.3683703" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.testDrive1.app.AppKt">
-    <configuration name="testDrive1.2:utilities [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/utilities" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="jar" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="testDrive1.app.AppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="testDrive1.2.app.main" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1zNt4eOElGskK1yLaDglyDFPJQq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib/prism-identity-jvm-1.2.0.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.46781608" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="io.iohk.atala.prism.example.MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="prism-sdk-kotlin-example.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="testDrive1.app.AppKt" />
+      <option name="MAIN_CLASS_NAME" value="io.iohk.atala.prism.example.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,8 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.testDrive1.app.AppKt" />
-        <item itemvalue="Gradle.testDrive1.2:utilities [jar]" />
+        <item itemvalue="Kotlin.io.iohk.atala.prism.example.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -118,29 +112,73 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="104d4fc0-92a9-4659-ba7d-513abdd129a0" name="Default Changelist" comment="" />
-      <created>1635521194127</created>
+      <changelist id="53359dee-9d32-43c2-86ad-9d46e6de3ae8" name="Default Changelist" comment="" />
+      <created>1634000184039</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1635521194127</updated>
-      <workItem from="1635521196569" duration="681000" />
-      <workItem from="1635522185262" duration="78000" />
-      <workItem from="1635525509796" duration="971000" />
-      <workItem from="1635526851167" duration="1443000" />
-      <workItem from="1635528748335" duration="986000" />
-      <workItem from="1635529815292" duration="843000" />
-      <workItem from="1635530836264" duration="38000" />
-      <workItem from="1635531557562" duration="1220000" />
+      <updated>1634000184039</updated>
+      <workItem from="1634000187678" duration="342000" />
+      <workItem from="1635597375581" duration="3654000" />
+      <workItem from="1635601534228" duration="2299000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="163" y="0" key="#Project_Structure" timestamp="1635530908462">
+    <state x="247" y="106" width="440" height="491" key="FileChooserDialogImpl" timestamp="1635605592491">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="163" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1635530908462" />
+    <state x="247" y="106" width="440" height="491" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1635605592491" />
+    <state width="1286" height="97" key="GridCell.Tab.0.bottom" timestamp="1635605849394">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1286" height="97" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1635605849394" />
+    <state width="1286" height="97" key="GridCell.Tab.0.center" timestamp="1635605849394">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1286" height="97" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1635605849394" />
+    <state width="1286" height="97" key="GridCell.Tab.0.left" timestamp="1635605849394">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1286" height="97" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1635605849394" />
+    <state width="1286" height="97" key="GridCell.Tab.0.right" timestamp="1635605849394">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1286" height="97" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1635605849394" />
+    <state width="1286" height="208" key="GridCell.Tab.1.bottom" timestamp="1635601170331">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1286" height="208" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1635601170331" />
+    <state width="1286" height="208" key="GridCell.Tab.1.center" timestamp="1635601170331">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1286" height="208" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1635601170331" />
+    <state width="1286" height="208" key="GridCell.Tab.1.left" timestamp="1635601170331">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1286" height="208" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1635601170331" />
+    <state width="1286" height="208" key="GridCell.Tab.1.right" timestamp="1635601170331">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1286" height="208" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1635601170331" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1635605595102">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1635605595102" />
   </component>
 </project>
