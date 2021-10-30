@@ -32,13 +32,6 @@ dependencies {
     implementation("io.iohk.atala.prism:credentials:0.1.0-fd93d83a")
     implementation("io.iohk.atala.prism:extras:0.1.0-fd93d83a")
 */
-/*
-    implementation("io.iohk.atala.prism:protos:1.2.0")
-    implementation("io.iohk.atala.prism:crypto:1.2.0")
-    implementation("io.iohk.atala.prism:identities:1.2.0")
-    implementation("io.iohk.atala.prism:credentials:1.2.0")
-    implementation("io.iohk.atala.prism:extras:1.2.0")
-*/
 
 
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.2")
