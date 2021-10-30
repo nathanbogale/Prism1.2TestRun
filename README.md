@@ -3,7 +3,7 @@
 2
 - On Kotlin + Gradle
 
-#Abandoned
+# Abandoned
 - The problem faced while impoorting dependencies to the Gradle project persists
 - Have shifted to this project - https://github.com/nathanbogale/Prism1.2-Maven-Edition.git
 - Trying to build the project on maven this time
