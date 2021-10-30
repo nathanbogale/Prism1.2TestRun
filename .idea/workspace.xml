@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53359dee-9d32-43c2-86ad-9d46e6de3ae8" name="Default Changelist" comment="" />
+    <list default="true" id="53359dee-9d32-43c2-86ad-9d46e6de3ae8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-api-android-1.2.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-api-android-1.2.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-common-android-1.2.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-common-android-1.2.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-credentials-android-1.2.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-credentials-android-1.2.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-crypto-android-1.2.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-crypto-android-1.2.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-identity-android-1.2.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-identity-android-1.2.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/prism-api-jvm-1.2.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/prism_api_jvm_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/prism_api_jvm_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/io/iohk/atala/prism/example/LittlePrism.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/io/iohk/atala/prism/example/LittlePrism.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,29 +44,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="prism-sdk-kotlin-example" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="prism-sdk-kotlin-example" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="prism-sdk-kotlin-example" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="prism-sdk-kotlin-example" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="prism-sdk-kotlin-example" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -66,26 +59,29 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1zNt4eOElGskK1yLaDglyDFPJQq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib/prism-identity-jvm-1.2.0.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib/prism-api-jvm-1.2.0-sources.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.46781608" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration name="io.iohk.atala.prism.example.MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
@@ -120,6 +116,7 @@
       <workItem from="1634000187678" duration="342000" />
       <workItem from="1635597375581" duration="3654000" />
       <workItem from="1635601534228" duration="2299000" />
+      <workItem from="1635609032033" duration="2508000" />
     </task>
     <servers />
   </component>
@@ -139,27 +136,30 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="247" y="106" width="440" height="491" key="FileChooserDialogImpl" timestamp="1635605592491">
+    <state x="247" y="106" width="577" height="491" key="FileChooserDialogImpl" timestamp="1635611564231">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="247" y="106" width="440" height="491" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1635605592491" />
-    <state width="1286" height="97" key="GridCell.Tab.0.bottom" timestamp="1635605849394">
+    <state x="247" y="106" width="577" height="491" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1635611564231" />
+    <state width="1243" height="97" key="GridCell.Tab.0.bottom" timestamp="1635609778212">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1286" height="97" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1635605849394" />
-    <state width="1286" height="97" key="GridCell.Tab.0.center" timestamp="1635605849394">
+    <state width="1243" height="97" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1635609778212" />
+    <state width="1243" height="97" key="GridCell.Tab.0.center" timestamp="1635609778212">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1286" height="97" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1635605849394" />
-    <state width="1286" height="97" key="GridCell.Tab.0.left" timestamp="1635605849394">
+    <state width="1243" height="97" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1635609778212" />
+    <state width="1243" height="97" key="GridCell.Tab.0.left" timestamp="1635609778211">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1286" height="97" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1635605849394" />
-    <state width="1286" height="97" key="GridCell.Tab.0.right" timestamp="1635605849394">
+    <state width="1243" height="97" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1635609778211" />
+    <state width="1243" height="97" key="GridCell.Tab.0.right" timestamp="1635609778212">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1286" height="97" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1635605849394" />
+    <state width="1243" height="97" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1635609778212" />
     <state width="1286" height="208" key="GridCell.Tab.1.bottom" timestamp="1635601170331">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -176,9 +176,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1286" height="208" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1635601170331" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1635605595102">
+    <state x="161" y="0" width="1205" height="738" key="SettingsEditor" timestamp="1635611604685">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1635605595102" />
+    <state x="161" y="0" width="1205" height="738" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1635611604685" />
   </component>
 </project>

@@ -1,6 +1,7 @@
 package io.iohk.atala.prism.example
 
-import io.iohk.atala.prism.*
+import io.iohk.atala.prism.example.prism.api.android.*
+
 /*
 import io.iohk.atala.prism.api.*
 import io.iohk.atala.prism.credentials.*
@@ -15,7 +16,12 @@ object LittlePrism {
 
 
     fun run() {
-        println("""Little Prism""")
+        println("""Hello im Little Prism""")
+        println("""-This is where we start-""")
+
+
+        val masterKeyPair = EC.generateKeyPair()
+        val did = DID.createUnpublishedDID(masterKeyPair.publicKey)
 
     }
 
