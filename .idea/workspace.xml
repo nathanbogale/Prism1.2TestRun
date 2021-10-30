@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a43c579-82ad-4f1e-8a56-c02955626b37" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/prism_api_jvm_1_2_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/io/iohk/atala/prism/example/LittlePrism.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/io/iohk/atala/prism/example/LittlePrism.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +40,13 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="prism-sdk-kotlin-example" type="f1a62948:ProjectNode" />
                 <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="prism-sdk-kotlin-example" type="f1a62948:ProjectNode" />
                 <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
@@ -90,7 +88,20 @@
     <property name="project.structure.side.proportion" value="0.46781608" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.io.iohk.atala.prism.example.MainKt">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="prism-sdk-kotlin-example.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="io.iohk.atala.prism.example.MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="prism-sdk-kotlin-example.main" />
       <option name="VM_PARAMETERS" />
@@ -107,6 +118,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.io.iohk.atala.prism.example.MainKt" />
+        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +127,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="53359dee-9d32-43c2-86ad-9d46e6de3ae8" name="Default Changelist" comment="" />
+      <changelist id="0a43c579-82ad-4f1e-8a56-c02955626b37" name="Default Changelist" comment="" />
       <created>1634000184039</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -124,6 +136,8 @@
       <workItem from="1635597375581" duration="3654000" />
       <workItem from="1635601534228" duration="2299000" />
       <workItem from="1635609032033" duration="2508000" />
+      <workItem from="1635621236068" duration="941000" />
+      <workItem from="1635624043577" duration="489000" />
     </task>
     <servers />
   </component>
@@ -183,9 +197,13 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1286" height="208" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1635601170331" />
-    <state x="68" y="0" width="1205" height="738" key="SettingsEditor" timestamp="1635618437050">
+    <state x="68" y="0" width="1205" height="738" key="SettingsEditor" timestamp="1635621664248">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="68" y="0" width="1205" height="738" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1635618437050" />
+    <state x="68" y="0" width="1205" height="738" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1635621664248" />
+    <state x="322" y="189" key="run.anything.popup" timestamp="1635621611497">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="322" y="189" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1635621611497" />
   </component>
 </project>

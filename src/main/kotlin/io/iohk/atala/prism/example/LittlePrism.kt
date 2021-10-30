@@ -1,6 +1,9 @@
 package io.iohk.atala.prism.example
 
-import io.iohk.atala.prism.example.prism-api-jvm-1.2.0.*
+//import io.iohk.atala.prism.example.prism-api-jvm-1.2.0.*
+//import prism-api-jvm-1.2.0.*
+//import api.jvm.*
+//import prism-api-jvm-1.2.0.*
 
 /*
 import io.iohk.atala.prism.api.*
@@ -19,10 +22,11 @@ object LittlePrism {
         println("""Hello im Little Prism""")
         println("""-This is where we start-""")
 
-
+/*
+//DID Creation
         val masterKeyPair = EC.generateKeyPair()
         val did = DID.createUnpublishedDID(masterKeyPair.publicKey)
-
+*/
     }
 
 }
