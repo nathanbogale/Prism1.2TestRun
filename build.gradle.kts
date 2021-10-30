@@ -32,7 +32,14 @@ dependencies {
 
     implementation(fileTree(mapOf("dir" to "lib", "include" to listOf("*.jar"))))
 
-    testImplementation(kotlin("test"))
+    implementation(files("src/lib/prism-api-jvm-1.2.0.jar"))
+    implementation(files("src/lib/prism-common-jvm-1.2.0.jar"))
+    implementation(files("src/lib/prism-credentials-jvm-1.2.0.jar"))
+    implementation(files("src/lib/prism-crypto-jvm-1.2.0.jar"))
+    implementation(files("src/lib/prism-identity-jvm-1.2.0.jar"))
+
+
+    testImplementation(kotlin("compile"))
     "externalLibs"(files("src/lib/prism-api-jvm-1.2.0.jar"))
     "externalLibs"(files("src/lib/prism-common-jvm-1.2.0.jar"))
     "externalLibs"(files("src/lib/prism-credentials-jvm-1.2.0.jar"))
@@ -41,7 +48,7 @@ dependencies {
 
     //implementation("io.iohk.atala:prism-api:$prismVersion")
     implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.2.1")
-
+/*
     //fetching the dependencies online
     // needed for the credential payloads defined in protobuf as well as to interact with our backend services
     implementation("io.iohk.atala.prism:protos:0.1.0-fd93d83a")
@@ -53,7 +60,7 @@ dependencies {
     implementation("io.iohk.atala.prism:credentials:0.1.0-fd93d83a")
 // used to avoid some boilerplate
     implementation("io.iohk.atala.prism:extras:0.1.0-fd93d83a")
-
+*/
 // needed for the credential content, bring the latest version
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.2")
 // needed for dealing with dates, bring the latest version

@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53359dee-9d32-43c2-86ad-9d46e6de3ae8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-api-android-1.2.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-api-android-1.2.0.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-common-android-1.2.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-common-android-1.2.0.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-credentials-android-1.2.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-credentials-android-1.2.0.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-crypto-android-1.2.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-crypto-android-1.2.0.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-identity-android-1.2.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/android/prism-identity-android-1.2.0.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/prism-api-jvm-1.2.0-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/prism_api_jvm_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/prism_api_jvm_1_2_0.xml" afterDir="false" />
+    <list default="true" id="0a43c579-82ad-4f1e-8a56-c02955626b37" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/prism_api_jvm_1_2_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/io/iohk/atala/prism/example/LittlePrism.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/io/iohk/atala/prism/example/LittlePrism.kt" afterDir="false" />
@@ -43,6 +32,24 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="prism-sdk-kotlin-example" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="prism-sdk-kotlin-example" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="prism-sdk-kotlin-example" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="prism-sdk-kotlin-example" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -77,7 +84,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib/prism-api-jvm-1.2.0-sources.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib/prism-identity-jvm-1.2.0.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.46781608" />
@@ -140,10 +147,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="247" y="106" width="577" height="491" key="FileChooserDialogImpl" timestamp="1635611564231">
+    <state x="247" y="106" width="577" height="491" key="FileChooserDialogImpl" timestamp="1635618429837">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="247" y="106" width="577" height="491" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1635611564231" />
+    <state x="247" y="106" width="577" height="491" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1635618429837" />
     <state width="1243" height="97" key="GridCell.Tab.0.bottom" timestamp="1635609778212">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -176,9 +183,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1286" height="208" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1635601170331" />
-    <state x="161" y="0" width="1205" height="738" key="SettingsEditor" timestamp="1635611604685">
+    <state x="68" y="0" width="1205" height="738" key="SettingsEditor" timestamp="1635618437050">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="161" y="0" width="1205" height="738" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1635611604685" />
+    <state x="68" y="0" width="1205" height="738" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1635618437050" />
   </component>
 </project>

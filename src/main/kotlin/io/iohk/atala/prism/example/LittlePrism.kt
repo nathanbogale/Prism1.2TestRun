@@ -1,6 +1,6 @@
 package io.iohk.atala.prism.example
 
-import io.iohk.atala.prism.example.prism.api.android.*
+import io.iohk.atala.prism.example.prism-api-jvm-1.2.0.*
 
 /*
 import io.iohk.atala.prism.api.*
