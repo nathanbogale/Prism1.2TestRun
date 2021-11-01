@@ -1,6 +1,5 @@
 
 # Taking the prism 1.2.0 SDK for a run
-2
 - On Kotlin + Gradle
 
 # Abandoned
